@@ -9,7 +9,16 @@
 	<meta name="description" content="The Vision Fund uses an entirely new approach to the way we read and look at books." />
 	<meta name="author" content="Jay Fu" />
 
+<style type="text/css">
+  .mobileShow {display: none;}
 
+  /* Smartphone Portrait and Landscape */
+  @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px){ 
+      .mobileShow {display: inline;}
+  }
+</style>
 	
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
@@ -208,8 +217,17 @@
 				
 				
 				</div>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/3mDFNF3pRL4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/bu4s5QOsCs4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			
+        <div class="row">
+          <div class="col-md-6">
+            <div class='embed-container'><iframe src='https://www.youtube.com/embed/3mDFNF3pRL4' frameborder='0' allowfullscreen></iframe></div>
+            <br>
+          </div>
+          
+          <div class="col-md-6">
+            <div class='embed-container'><iframe src='https://www.youtube.com/embed/bu4s5QOsCs4' frameborder='0' allowfullscreen></iframe></div>
+          </div>
+        </div>
         <br><br><br><br><br>
         <div class="row row-bottom-padded-md">
           <div class = "col-md-3"></div>
